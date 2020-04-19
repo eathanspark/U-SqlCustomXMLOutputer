@@ -1,0 +1,378 @@
+﻿{
+"CompilerPlanStart":"4\/19\/2020 5:24:20 PM"
+,
+"Settings":"-c++ -mp -pdb Partial -OUTPUT_PATH C:\\Users\\anssharm7\\AppData\\Local\\USQLDataRoot -cosmosCluster localhost -apEnvironment Default -apCluster localhost -On ForceShadowCopy -On ADL -Off Sirius -On USQL -Off SQLIPSQLProxy -Off SQLIPSQLProxyNative -Off PolarisScaleUp -buckets 1 -SplitPartitionThreshold 52428800 -ClientVersion 10.2.2.0"
+,
+"planNodes":
+[
+{
+"statementText":"     EXTRACT UserId          int,             Start           DateTime,             Region    "
+,
+"NodeName":"QueryStatement"
+}
+,
+{
+"statementText":"OUTPUT @searchlog     TO \"\/SearchLog_output.tsv\"    USING Outputters.Tsv()"
+,
+"NodeName":"OutputStatement"
+}
+]
+,
+"CompilerPlanEnd":"4\/19\/2020 5:24:20 PM"
+}
+{
+"CompilerPlanStart":"4\/19\/2020 5:30:40 PM"
+,
+"Settings":"-c++ -mp -pdb Partial -OUTPUT_PATH C:\\Users\\anssharm7\\AppData\\Local\\USQLDataRoot -cosmosCluster localhost -apEnvironment Default -apCluster localhost -On ForceShadowCopy -On ADL -Off Sirius -On USQL -Off SQLIPSQLProxy -Off SQLIPSQLProxyNative -Off PolarisScaleUp -buckets 1 -SplitPartitionThreshold 52428800 -ClientVersion 10.2.2.0"
+,
+"planNodes":
+[
+{
+"statementText":"     EXTRACT sn int,            name string,            dept string,            rank int, "
+,
+"NodeName":"QueryStatement"
+}
+,
+{
+"statementText":"OUTPUT @employeelog     TO \"\/employeelog_output.csv\"    USING Outputters.Csv()"
+,
+"NodeName":"OutputStatement"
+}
+]
+,
+"CompilerPlanEnd":"4\/19\/2020 5:30:40 PM"
+}
+{
+"CompilerPlanStart":"4\/19\/2020 5:33:06 PM"
+,
+"Settings":"-c++ -mp -pdb Partial -OUTPUT_PATH C:\\Users\\anssharm7\\AppData\\Local\\USQLDataRoot -cosmosCluster localhost -apEnvironment Default -apCluster localhost -On ForceShadowCopy -On ADL -On USQL -Off SQLIPSQLProxy -Off SQLIPSQLProxyNative -SplitPartitionThreshold 52428800 -ClientVersion 10.2.2.0"
+,
+"planNodes":
+[
+{
+"statementText":"     EXTRACT sn int,            name string,            dept string,            rank int, "
+,
+"NodeName":"QueryStatement"
+}
+,
+{
+"statementText":"OUTPUT @employeelog     TO \"\/employeelog_output.csv\"    USING Outputters.csv()"
+,
+"NodeName":"OutputStatement"
+}
+]
+,
+"CompilerPlanEnd":"4\/19\/2020 5:33:07 PM"
+}
+{
+"CompilerPlanStart":"4\/19\/2020 5:33:28 PM"
+,
+"Settings":"-c++ -mp -pdb Partial -OUTPUT_PATH C:\\Users\\anssharm7\\AppData\\Local\\USQLDataRoot -cosmosCluster localhost -apEnvironment Default -apCluster localhost -On ForceShadowCopy -On ADL -On USQL -Off SQLIPSQLProxy -Off SQLIPSQLProxyNative -SplitPartitionThreshold 52428800 -ClientVersion 10.2.2.0"
+,
+"planNodes":
+[
+{
+"statementText":"     EXTRACT sn int,            name string,            dept string,            rank int, "
+,
+"NodeName":"QueryStatement"
+}
+,
+{
+"statementText":"OUTPUT @employeelog     TO \"\/employeelog_output.csv\"    USING Outputters.Csv()"
+,
+"NodeName":"OutputStatement"
+}
+]
+,
+"CompilerPlanEnd":"4\/19\/2020 5:33:28 PM"
+}
+{
+"CompilerPlanStart":"4\/19\/2020 5:34:00 PM"
+,
+"Settings":"-c++ -mp -pdb Partial -OUTPUT_PATH C:\\Users\\anssharm7\\AppData\\Local\\USQLDataRoot -cosmosCluster localhost -apEnvironment Default -apCluster localhost -On ForceShadowCopy -On ADL -On USQL -Off SQLIPSQLProxy -Off SQLIPSQLProxyNative -SplitPartitionThreshold 52428800 -ClientVersion 10.2.2.0"
+,
+"planNodes":
+[
+{
+"statementText":"     EXTRACT sn int,            name string,            dept string,            rank int, "
+,
+"NodeName":"QueryStatement"
+}
+,
+{
+"statementText":"OUTPUT @employeelog     TO \"\/employeelog_output.csv\"    USING Outputters.Csv()"
+,
+"NodeName":"OutputStatement"
+}
+]
+,
+"CompilerPlanEnd":"4\/19\/2020 5:34:00 PM"
+}
+{
+"CompilerPlanStart":"4\/19\/2020 5:34:43 PM"
+,
+"Settings":"-c++ -mp -pdb Partial -OUTPUT_PATH C:\\Users\\anssharm7\\AppData\\Local\\USQLDataRoot -cosmosCluster localhost -apEnvironment Default -apCluster localhost -On ForceShadowCopy -On ADL -Off Sirius -On USQL -Off SQLIPSQLProxy -Off SQLIPSQLProxyNative -Off PolarisScaleUp -buckets 1 -SplitPartitionThreshold 52428800 -ClientVersion 10.2.2.0"
+,
+"planNodes":
+[
+{
+"statementText":"     EXTRACT sn int,            name string,            dept string,            rank int, "
+,
+"NodeName":"QueryStatement"
+}
+,
+{
+"statementText":"OUTPUT @employeelog     TO \"\/employeelog_output.csv\"    USING Outputters.Csv()"
+,
+"NodeName":"OutputStatement"
+}
+]
+,
+"CompilerPlanEnd":"4\/19\/2020 5:34:43 PM"
+}
+{
+"CompilerPlanStart":"4\/19\/2020 5:37:31 PM"
+,
+"Settings":"-c++ -mp -pdb Partial -OUTPUT_PATH C:\\Users\\anssharm7\\AppData\\Local\\USQLDataRoot -cosmosCluster localhost -apEnvironment Default -apCluster localhost -On ForceShadowCopy -On ADL -Off Sirius -On USQL -Off SQLIPSQLProxy -Off SQLIPSQLProxyNative -Off PolarisScaleUp -buckets 1 -SplitPartitionThreshold 52428800 -ClientVersion 10.2.2.0"
+,
+"planNodes":
+[
+{
+"statementText":"     EXTRACT sn int,            name string,            dept string,            rank int, "
+,
+"NodeName":"QueryStatement"
+}
+,
+{
+"statementText":"OUTPUT @employeelog     TO \"\/employeelog_output.csv\"    USING Outputters.Csv()"
+,
+"NodeName":"OutputStatement"
+}
+]
+,
+"CompilerPlanEnd":"4\/19\/2020 5:37:31 PM"
+}
+{
+"CompilerPlanStart":"4\/19\/2020 5:40:33 PM"
+,
+"Settings":"-c++ -mp -pdb Partial -OUTPUT_PATH C:\\Users\\anssharm7\\AppData\\Local\\USQLDataRoot -cosmosCluster localhost -apEnvironment Default -apCluster localhost -On ForceShadowCopy -On ADL -On USQL -Off SQLIPSQLProxy -Off SQLIPSQLProxyNative -SplitPartitionThreshold 52428800 -ClientVersion 10.2.2.0"
+,
+"planNodes":
+[
+{
+"statementText":"     EXTRACT sn int,            name string,            dept string,            rank int, "
+,
+"NodeName":"QueryStatement"
+}
+,
+{
+"statementText":"    SELECT dept,           String.Join('|', name)    FROM @employeelog    GROUP BY dept,  "
+,
+"NodeName":"QueryStatement"
+}
+,
+{
+"statementText":"OUTPUT @groupedData     TO \"\/employeelog_output.csv\"    USING Outputters.Csv()"
+,
+"NodeName":"OutputStatement"
+}
+]
+,
+"CompilerPlanEnd":"4\/19\/2020 5:40:33 PM"
+}
+{
+"CompilerPlanStart":"4\/19\/2020 5:42:17 PM"
+,
+"Settings":"-c++ -mp -pdb Partial -OUTPUT_PATH C:\\Users\\anssharm7\\AppData\\Local\\USQLDataRoot -cosmosCluster localhost -apEnvironment Default -apCluster localhost -On ForceShadowCopy -On ADL -Off Sirius -On USQL -Off SQLIPSQLProxy -Off SQLIPSQLProxyNative -Off PolarisScaleUp -buckets 1 -SplitPartitionThreshold 52428800 -ClientVersion 10.2.2.0"
+,
+"planNodes":
+[
+{
+"statementText":"     EXTRACT sn int,            name string,            dept string,            rank int, "
+,
+"NodeName":"QueryStatement"
+}
+,
+{
+"statementText":"    SELECT dept,           String.Join(\"|\", ARRAY_AGG( name)) AS newtag    FROM @employeelog"
+,
+"NodeName":"QueryStatement"
+}
+,
+{
+"statementText":"OUTPUT @groupedData     TO \"\/employeelog_output.csv\"    USING Outputters.Csv()"
+,
+"NodeName":"OutputStatement"
+}
+]
+,
+"CompilerPlanEnd":"4\/19\/2020 5:42:17 PM"
+}
+{
+"CompilerPlanStart":"4\/19\/2020 5:45:18 PM"
+,
+"Settings":"-c++ -mp -pdb Partial -OUTPUT_PATH C:\\Users\\anssharm7\\AppData\\Local\\USQLDataRoot -cosmosCluster localhost -apEnvironment Default -apCluster localhost -On ForceShadowCopy -On ADL -Off Sirius -On USQL -Off SQLIPSQLProxy -Off SQLIPSQLProxyNative -Off PolarisScaleUp -buckets 1 -SplitPartitionThreshold 52428800 -ClientVersion 10.2.2.0"
+,
+"planNodes":
+[
+{
+"statementText":"     EXTRACT sn int,            name string,            dept string,            rank int, "
+,
+"NodeName":"QueryStatement"
+}
+,
+{
+"statementText":"    SELECT dept,           String.Join(\"|\", ARRAY_AGG( name)) AS newtag    FROM @employeelog"
+,
+"NodeName":"QueryStatement"
+}
+,
+{
+"statementText":"OUTPUT @groupedData     TO \"\/employeelog_output.csv\"    USING Outputters.Csv()"
+,
+"NodeName":"OutputStatement"
+}
+]
+,
+"CompilerPlanEnd":"4\/19\/2020 5:45:18 PM"
+}
+{
+"CompilerPlanStart":"4\/19\/2020 5:57:43 PM"
+,
+"Settings":"-c++ -mp -pdb Partial -OUTPUT_PATH C:\\Users\\anssharm7\\AppData\\Local\\USQLDataRoot -cosmosCluster localhost -apEnvironment Default -apCluster localhost -On ForceShadowCopy -On ADL -Off Sirius -On USQL -Off SQLIPSQLProxy -Off SQLIPSQLProxyNative -Off PolarisScaleUp -buckets 1 -SplitPartitionThreshold 52428800 -ClientVersion 10.2.2.0"
+,
+"planNodes":
+[
+{
+"statementText":"\/\/ Auto-generated header codeCREATE ASSEMBLY [__codeBehind_b4vw1mwx.wdf] FROM 0x4D5A900003000000"
+,
+"NodeName":"CreateAssemblyStatement"
+,
+"Name":"__codeBehind_b4vw1mwx.wdf"
+,
+"SourcePath":null
+}
+,
+{
+"statementText":"REFERENCE ASSEMBLY [__codeBehind_b4vw1mwx.wdf]"
+,
+"NodeName":"ReferenceAssemblyStatement"
+,
+"Name":"__codeBehind_b4vw1mwx.wdf"
+}
+,
+{
+"statementText":"     EXTRACT sn int,            name string,            dept string,            rank int, "
+,
+"NodeName":"QueryStatement"
+}
+,
+{
+"statementText":"    SELECT dept,           String.Join(\"|\", ARRAY_AGG( name)) AS newtag    FROM @employeelog"
+,
+"NodeName":"QueryStatement"
+}
+,
+{
+"statementText":"OUTPUT @groupedData     TO \"\/employeelog_output.xml\"    USING new CustomXMLOutputer.Employee"
+,
+"NodeName":"OutputStatement"
+}
+,
+{
+"statementText":"\/\/ User script ended\/\/ Auto-generated footer codeUSE DATABASE [master]"
+,
+"NodeName":"UseDatabaseStatement"
+,
+"Name":"master"
+}
+,
+{
+"statementText":"USE SCHEMA [dbo]"
+,
+"NodeName":"UseSchemaStatement"
+,
+"Name":"dbo"
+}
+,
+{
+"statementText":"DROP ASSEMBLY [__codeBehind_b4vw1mwx.wdf]"
+,
+"NodeName":"DropAssemblyStatement"
+,
+"Name":"__codeBehind_b4vw1mwx.wdf"
+}
+]
+,
+"CompilerPlanEnd":"4\/19\/2020 5:57:43 PM"
+}
+{
+"CompilerPlanStart":"4\/19\/2020 6:02:12 PM"
+,
+"Settings":"-c++ -mp -pdb Partial -OUTPUT_PATH C:\\Users\\anssharm7\\AppData\\Local\\USQLDataRoot -cosmosCluster localhost -apEnvironment Default -apCluster localhost -On ForceShadowCopy -On ADL -Off Sirius -On USQL -Off SQLIPSQLProxy -Off SQLIPSQLProxyNative -Off PolarisScaleUp -buckets 1 -SplitPartitionThreshold 52428800 -ClientVersion 10.2.2.0"
+,
+"planNodes":
+[
+{
+"statementText":"\/\/ Auto-generated header codeCREATE ASSEMBLY [__codeBehind_r42dw11s.cet] FROM 0x4D5A900003000000"
+,
+"NodeName":"CreateAssemblyStatement"
+,
+"Name":"__codeBehind_r42dw11s.cet"
+,
+"SourcePath":null
+}
+,
+{
+"statementText":"REFERENCE ASSEMBLY [__codeBehind_r42dw11s.cet]"
+,
+"NodeName":"ReferenceAssemblyStatement"
+,
+"Name":"__codeBehind_r42dw11s.cet"
+}
+,
+{
+"statementText":"     EXTRACT sn int,            name string,            dept string,            rank int, "
+,
+"NodeName":"QueryStatement"
+}
+,
+{
+"statementText":"    SELECT dept,           String.Join(\"|\", ARRAY_AGG( name)) AS newtag    FROM @employeelog"
+,
+"NodeName":"QueryStatement"
+}
+,
+{
+"statementText":"OUTPUT @groupedData     TO \"\/employeelog_output.xml\"    USING new CustomXMLOutputer.Employee"
+,
+"NodeName":"OutputStatement"
+}
+,
+{
+"statementText":"\/\/ User script ended\/\/ Auto-generated footer codeUSE DATABASE [master]"
+,
+"NodeName":"UseDatabaseStatement"
+,
+"Name":"master"
+}
+,
+{
+"statementText":"USE SCHEMA [dbo]"
+,
+"NodeName":"UseSchemaStatement"
+,
+"Name":"dbo"
+}
+,
+{
+"statementText":"DROP ASSEMBLY [__codeBehind_r42dw11s.cet]"
+,
+"NodeName":"DropAssemblyStatement"
+,
+"Name":"__codeBehind_r42dw11s.cet"
+}
+]
+,
+"CompilerPlanEnd":"4\/19\/2020 6:02:12 PM"
+}

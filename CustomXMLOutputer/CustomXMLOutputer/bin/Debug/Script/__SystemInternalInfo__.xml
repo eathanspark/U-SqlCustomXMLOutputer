@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CSSRelatedInfo>
+  <OptimizerPlanInfo signatureVersion="1">
+    <TableScan present="True" occurrence="1" />
+    <PartitionSeek present="False" occurrence="0" />
+    <PartitionRange present="False" occurrence="0" />
+    <IndexSeek present="False" occurrence="0" />
+    <IndexRange present="False" occurrence="0" />
+    <Join present="False" occurrence="0" />
+    <GroupByAgg present="True" occurrence="1" />
+    <UDProcessor present="False" occurrence="0" />
+    <UDReducer present="False" occurrence="0" />
+    <UDCombiner present="False" occurrence="0" />
+    <UDMultiProcessor present="False" occurrence="0" />
+    <Top present="False" occurrence="0" />
+    <Costs>
+      <ExtractCardinality>1</ExtractCardinality>
+      <InputSize>1</InputSize>
+      <OutputCardinality>1</OutputCardinality>
+      <NumTable>1</NumTable>
+      <DataTransferVolume>0</DataTransferVolume>
+      <Latency>-1</Latency>
+      <TotalCost>-1</TotalCost>
+      <EstimatedNumEdges>0</EstimatedNumEdges>
+    </Costs>
+    <OptimizerCounters>
+      <CQO_COUNTER_ENTER_OPTIMIZER>1</CQO_COUNTER_ENTER_OPTIMIZER>
+      <CQO_COUNTER_EXIT_OPTIMIZER>1</CQO_COUNTER_EXIT_OPTIMIZER>
+    </OptimizerCounters>
+    <OptimizerTrees>
+<InputTree>
+    <LogOp Id="LogOp_Output" Table="C:/Users/anssharm7/AppData/Local/USQLDataRoot/employeelog_output.xml" XMode="All" Out="dept,newtag" Udf="EmployeeXMLOutputter">
+      <OpInfo><TableGroupProperties Grp="10.0" Remotable="False" Card="1" AvgRowLength="16"/></OpInfo>
+      <LogOp Id="LogOp_Project" Remove="Expr_0">
+        <OpInfo><TableGroupProperties Grp="9.0" Remotable="False" Card="1" AvgRowLength="16"/></OpInfo>
+        <LogOp Id="LogOp_GbAgg" AggregateType="Normal" Out="Expr_0,dept" By="dept">
+          <OpInfo><TableGroupProperties Grp="5.0" Remotable="False" Card="1" AvgRowLength="264"/></OpInfo>
+          <LogOp Id="LogOp_Extract" Table="C:\Users\anssharm7\AppData\Local\USQLDataRoot\employee.csv" XMode="Serial" Udf="IExtractor">
+            <OpInfo><TableGroupProperties Grp="0.0" Remotable="False" Card="1" AvgRowLength="32"/></OpInfo>
+          </LogOp>
+          <AncOp Id="AncOp_PrjList"><OpInfo><ScalarGroupProperties Grp="4.0"/></OpInfo>
+            <AncOp Id="AncOp_PrjEl" Column="Expr_0"><OpInfo><ScalarGroupProperties Grp="3.0"/></OpInfo>
+              <ScaOp Id="ScaOp_AggFunc" AggregateName="stopArrayAgg" Distinct="False"><OpInfo><ScalarGroupProperties Grp="2.0"/></OpInfo>
+                <ScaOp Id="ScaOp_Identifier" Column="name"><OpInfo><ScalarGroupProperties Grp="1.0"/></OpInfo>
+                </ScaOp>
+              </ScaOp>
+            </AncOp>
+          </AncOp>
+        </LogOp>
+        <AncOp Id="AncOp_PrjList"><OpInfo><ScalarGroupProperties Grp="8.0"/></OpInfo>
+          <AncOp Id="AncOp_PrjEl" Column="newtag"><OpInfo><ScalarGroupProperties Grp="7.0"/></OpInfo>
+            <ScaOp Id="ScaOp_Udf" Udf="String.Join(&quot;|&quot;, Expr_0)" UsedColumn="Expr_0"><OpInfo><ScalarGroupProperties Grp="6.0"/></OpInfo>
+            </ScaOp>
+          </AncOp>
+        </AncOp>
+      </LogOp>
+    </LogOp>
+</InputTree>
+<OutputTree>
+    <PhyOp Id="PhyOp_Output" Table="C:/Users/anssharm7/AppData/Local/USQLDataRoot/employeelog_output.xml" XMode="Serial" Out="dept,newtag" Udf="EmployeeXMLOutputter">
+      <OpInfo><TableGroupProperties Grp="10.1" Remotable="False" Card="1" AvgRowLength="16" PrtnSkewFactor="1" HT="10326760123104143670:228::4:3825015264347645058" HTS="2476351124706370704" HTN="6291490236867989159:13249476237818764028:746512400019963755"/><Costs TotalCosts="5.02604" BubbleCost="5.02604" BubblePartitions="399"/></OpInfo>
+      <PhyOp Id="PhyOp_ComputeScalar">
+        <OpInfo><TableGroupProperties Grp="9.1" Remotable="False" Card="1" AvgRowLength="16" PrtnSkewFactor="1" HT="3825015264347645058:212::3:5736852857345581762" HTS="4403517364553204261" HTN="10413134747080682949:13344058326213657742:746512400019963755"/><Costs TotalCosts="5.01588" BubbleCost="5.01588" BubblePartitions="399"/></OpInfo>
+        <PhyOp Id="PhyOp_StreamGbAgg" AggregateType="Normal" GroupOnly="False" On="dept ASC" SortColumn="dept ASC">
+          <OpInfo><TableGroupProperties Grp="5.1" Remotable="False" Card="1" AvgRowLength="264" PrtnSkewFactor="1" HT="6101340086944582046:109:0:4:9085608645739318580" HTS="13831742421540203775" HTN="17623977057378065654:16741275119089121282:746512400019963755"/><Costs TotalCosts="5.01588" BubbleCost="5.01588" BubblePartitions="399"/></OpInfo>
+          <PhyOp Id="PhyOp_Sort" SortColumn="dept ASC">
+            <OpInfo><TableGroupProperties Grp="0.2" Remotable="False" Card="1" AvgRowLength="16" PrtnSkewFactor="1" HT="13419506045884217425:115::0:0" HTS="17790647208305373654" HTN="8825011671653985:7358768758053956660:746512400019963755"/><Costs TotalCosts="5.01588" BubbleCost="5.01588" BubblePartitions="399"/></OpInfo>
+            <PhyOp Id="PhyOp_Extract" Table="C:\Users\anssharm7\AppData\Local\USQLDataRoot\employee.csv" XMode="Serial" Udf="IExtractor">
+              <OpInfo><TableGroupProperties Grp="0.3" Remotable="False" Card="1" AvgRowLength="16" PrtnSkewFactor="1" HT="13419506045884217425:115::0:0" HTS="17790647208305373654" HTN="8825011671653985:7358768758053956660:746512400019963755"/><Costs TotalCosts="5.01578" BubbleCost="5.01578" BubblePartitions="399"/></OpInfo>
+            </PhyOp>
+          </PhyOp>
+          <AncOp Id="AncOp_PrjList"><OpInfo><ScalarGroupProperties Grp="4.0"/></OpInfo>
+            <AncOp Id="AncOp_PrjEl" Column="Expr_0"><OpInfo><ScalarGroupProperties Grp="3.0"/></OpInfo>
+              <ScaOp Id="ScaOp_AggFunc" AggregateName="stopArrayAgg" Distinct="False"><OpInfo><ScalarGroupProperties Grp="2.0"/></OpInfo>
+                <ScaOp Id="ScaOp_Identifier" Column="name"><OpInfo><ScalarGroupProperties Grp="1.0"/></OpInfo>
+                </ScaOp>
+              </ScaOp>
+            </AncOp>
+          </AncOp>
+        </PhyOp>
+        <AncOp Id="AncOp_PrjList"><OpInfo><ScalarGroupProperties Grp="8.0"/></OpInfo>
+          <AncOp Id="AncOp_PrjEl" Column="newtag"><OpInfo><ScalarGroupProperties Grp="7.0"/></OpInfo>
+            <ScaOp Id="ScaOp_Udf" Udf="String.Join(&quot;|&quot;, Expr_0)" UsedColumn="Expr_0"><OpInfo><ScalarGroupProperties Grp="6.0"/></OpInfo>
+            </ScaOp>
+          </AncOp>
+        </AncOp>
+      </PhyOp>
+    </PhyOp>
+</OutputTree>
+</OptimizerTrees>
+  </OptimizerPlanInfo>
+</CSSRelatedInfo>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScopeVertices helperAssembly="__ScopeCodeGen__.dll" signatureVersion="1">
+  <ScopeVertex id="SV1_Extract" cppReady="true">
+    <EstimatedLimitMemory processMemory="6442450944" managedMemory="864026624" adapterMemory="0" engineMemory="5054136320" engineIOMemory="150994944" engineOperatorMemory="4903141376" minEngineOperatorMemory="557973504" />
+    <operator id="Extract_0" uid="1" assemblyName="Microsoft.Analytics.Interfaces.dll" className="Microsoft.Analytics.Interfaces.IExtractor" signature="17790647208305373654!0!Strict">
+      <input id="Extract_0" uid="1" schema="sn:int,name:string,dept:string,rank:int,sal:long" inputIndex="0" numberOfInputs="ALL" />
+      <output id="Extract_0_Data0" uid="2" schema="name:string,dept:string" />
+    </operator>
+    <operator id="Process_1" uid="3" assemblyName="__ScopeCodeGen__.dll" className="ScopeSorter_1" args="-keys dept" signature="17790647208305373654!0!Strict">
+      <input id="Extract_0_Data0" uid="2" schema="name:string,dept:string" />
+      <output id="Process_1_Data0" uid="4" schema="name:string,dept:string" />
+    </operator>
+    <operator id="Process_2" uid="5" assemblyName="__ScopeCodeGen__.dll" className="SqlFilterTransformer_4" signature="17790647208305373654!0!Strict">
+      <input id="Process_1_Data0" uid="4" schema="name:string,dept:string" />
+      <output id="Process_2_Data0" uid="6" schema="dept:string,Expr_0:string" />
+    </operator>
+    <operator id="Process_3" uid="7" assemblyName="__ScopeCodeGen__.dll" className="SqlGrouper_1" signature="13831742421540203775!5!Strict">
+      <input id="Process_2_Data0" uid="6" schema="dept:string,Expr_0:string" />
+      <output id="Process_3_Data0" uid="8" schema="dept:string,Expr_0:Microsoft.Analytics.Types.Sql.SqlArray&lt;System.String&gt;" />
+    </operator>
+    <operator id="Process_4" uid="9" assemblyName="__ScopeCodeGen__.dll" className="SqlFilterTransformer_5" signature="13831742421540203775!5!Strict">
+      <input id="Process_3_Data0" uid="8" schema="dept:string,Expr_0:Microsoft.Analytics.Types.Sql.SqlArray&lt;System.String&gt;" />
+      <output id="Process_4_Data0" uid="10" schema="dept:string,newtag:string" />
+    </operator>
+    <operator id="Output_5" uid="11" assemblyName="__codeBehind_r42dw11s.cet.dll" className="CustomXMLOutputer.EmployeeXMLOutputter" signature="2476351124706370704!10!Strict">
+      <input id="Process_4_Data0" uid="10" schema="dept:string,newtag:string" />
+      <output id="SV1_Extract_out0" uid="11" schema="dept:string,newtag:string" outputIndex="0" numberOfOutputs="1" finalOutput="true" />
+    </operator>
+  </ScopeVertex>
+</ScopeVertices>

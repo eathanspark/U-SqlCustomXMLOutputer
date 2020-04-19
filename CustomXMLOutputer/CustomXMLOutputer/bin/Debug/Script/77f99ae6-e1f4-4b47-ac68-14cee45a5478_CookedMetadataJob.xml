@@ -1,0 +1,64 @@
+﻿<MetadataJob xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Scope.Metadata.Contract">
+  <StorageInfo>
+    <DataRoot>C:\Users\anssharm7\AppData\Local\USQLDataRoot</DataRoot>
+    <MountPointName>_catalog_</MountPointName>
+    <MountPointPhysicalPath>C:/Users/anssharm7/AppData/Local/USQLDataRoot/_catalog_/</MountPointPhysicalPath>
+  </StorageInfo>
+  <OperationsSequence>
+    <MetadataOperation i:type="CreateEntityOperation">
+      <Entity i:type="AssemblyInfo">
+        <Id>26c4cb05-1fc8-4585-bf4b-b9c30d1f7d65</Id>
+        <Name>
+          <Server>localcomputeaccount</Server>
+          <FirstPart>master</FirstPart>
+          <SecondPart>__codeBehind_r42dw11s.cet</SecondPart>
+        </Name>
+        <ClrName>__codebehind_r42dw11s.cet, version=0.0.0.0, culture=neutral, publickeytoken=null</ClrName>
+        <CreateDate i:nil="true" />
+        <Dependencies />
+        <Files>
+          <AssemblyFileInfo>
+            <ContentFileInfo>
+              <Id>8569d94e-81b6-4fe1-8087-af85d7d18556</Id>
+              <Length>8704</Length>
+              <RelativePath>_catalog_/database/a7c86f0d-5250-4b3f-9f91-9133a623276a/assembly/26c4cb05-1fc8-4585-bf4b-b9c30d1f7d65/__codeBehind_r42dw11s.cet.dll</RelativePath>
+            </ContentFileInfo>
+            <ContentPath i:nil="true" />
+            <OriginalPath i:nil="true" />
+            <Type>ASSEMBLY</Type>
+          </AssemblyFileInfo>
+          <AssemblyFileInfo>
+            <ContentFileInfo>
+              <Id>8569d94e-81b6-4fe1-8087-af85d7d18556</Id>
+              <Length>13824</Length>
+              <RelativePath>_catalog_/database/a7c86f0d-5250-4b3f-9f91-9133a623276a/assembly/26c4cb05-1fc8-4585-bf4b-b9c30d1f7d65/__codeBehind_r42dw11s.cet.pdb</RelativePath>
+            </ContentFileInfo>
+            <ContentPath i:nil="true" />
+            <OriginalPath i:nil="true" />
+            <Type>RESOURCE</Type>
+          </AssemblyFileInfo>
+        </Files>
+        <IsUserDefined>true</IsUserDefined>
+        <IsVisible>true</IsVisible>
+        <Platform>DOTNET</Platform>
+      </Entity>
+    </MetadataOperation>
+    <MetadataOperation i:type="DropEntityOperation">
+      <DisposeDataArtifacts>true</DisposeDataArtifacts>
+      <Entity>
+        <Id>26c4cb05-1fc8-4585-bf4b-b9c30d1f7d65</Id>
+        <Name>
+          <Server>localcomputeaccount</Server>
+          <FirstPart>master</FirstPart>
+          <SecondPart>__codeBehind_r42dw11s.cet</SecondPart>
+        </Name>
+      </Entity>
+      <TypeName>Scope.Metadata.Contract.AssemblyInfo</TypeName>
+    </MetadataOperation>
+  </OperationsSequence>
+  <ScopeJobInfo>
+    <JobGuid>00000000-0000-0000-0000-000000000000</JobGuid>
+    <JobName></JobName>
+    <JobType>Usql</JobType>
+  </ScopeJobInfo>
+</MetadataJob>

@@ -1,0 +1,251 @@
+*** Entering compilation, time elapsed until this point: 00:00:03.8617627
+*** Done with C# compilation, time elapsed until this point: 00:00:06.1190030
+#CPP cl.exe compile (iteration 1/1) -- Managed
+#CPP stdout:
+__ScopeCodeGenEngine__.dll.cpp
+ENC_CWD=C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script
+ENC_CL=c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\VC\bin\cl.exe
+ENC_SRC=__ScopeCodeGenEngine__.dll.cpp
+ENC_PDB=C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\vc140.pdb
+ENC_CMD=-nologo -c -bigobj -Bt+ -DWIN32_LEAN_AND_MEAN -MD -W4 -WX -Zi -O2 -Bd -cgsummary -EHa -clr -DCOMPILE_MANAGED -wd4947 -wd4945 -wd4564 -FUSystem.dll -FUSystem.Data.dll -FUSystem.Core.dll -FUSystem.Runtime.Serialization.dll -FUC:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\Microsoft.Analytics.Interfaces.dll -FUC:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\Microsoft.Analytics.Types.dll -FUC:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\ScopeEngineManaged.dll -FUC:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\Microsoft.Scope.Interfaces.dll -FUC:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\usqlmanagedudo.dll -FUC:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__codeBehind_r42dw11s.cet.dll -FUC:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__ScopeCodeGen__.dll -AI"c:\program files (x86)\microsoft visual studio\2019\professional\common7\ide\extensions\microsoft\adl tools\2.4.5000.0\U-SQLSDK" -wd4125 -wd4627 -wd4800 -wd4702 -DUSE_SSE4_2 -I"c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\VC\include" -I"c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\SDK\include" -I"c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\SDK\include\um" -I"c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\SDK\include\shared" -I"c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\SDK\include\ucrt" -I"c:\program files (x86)\microsoft visual studio\2019\professional\common7\ide\extensions\microsoft\adl tools\2.4.5000.0\U-SQLSDK" -IC:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script -DCOMPILE_ALL_VERTICES -DCOMPILE_INIT_SHUTDOWN -TP -X
+`c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\VC\bin\c1xx.dll -zm0x00007FF68E18CA20 -il C:\Users\ANSSHA~1\AppData\Local\Temp\_CL_10fed0a9 -typedil -f __ScopeCodeGenEngine__.dll.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -ZB64 -D_INTEGRAL_MAX_BITS=64 -pc \:/ -Fdvc140.pdb -D_MSC_VER=1912 -D_MSC_FULL_VER=191225835 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GS -GR -D_CPPRTTI -Zc:forScope -Zc:wchar_t -nologo -DWIN32_LEAN_AND_MEAN -D_MT -D_DLL -W 4 -WX -Zi -GF -Og -Oi -Ot -Oy -Bd -EHa -EHa -D_CPPUNWIND -Gil -D_MANAGED -D_M_CEE=001 -DCOMPILE_MANAGED -wd 4947 -wd 4945 -wd 4564 -FU System.dll -FU System.Data.dll -FU System.Core.dll -FU System.Runtime.Serialization.dll -FU C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\Microsoft.Analytics.Interfaces.dll -FU C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\Microsoft.Analytics.Types.dll -FU C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\ScopeEngineManaged.dll -FU C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\Microsoft.Scope.Interfaces.dll -FU C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\usqlmanagedudo.dll -FU C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__codeBehind_r42dw11s.cet.dll -FU C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__ScopeCodeGen__.dll -AI c:\program files (x86)\microsoft visual studio\2019\professional\common7\ide\extensions\microsoft\adl tools\2.4.5000.0\U-SQLSDK -wd 4125 -wd 4627 -wd 4800 -wd 4702 -DUSE_SSE4_2 -I c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\VC\include -I c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\SDK\include -I c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\SDK\include\um -I c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\SDK\include\shared -I c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\SDK\include\ucrt -I c:\program files (x86)\microsoft visual studio\2019\professional\common7\ide\extensions\microsoft\adl tools\2.4.5000.0\U-SQLSDK -I C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script -DCOMPILE_ALL_VERTICES -DCOMPILE_INIT_SHUTDOWN -Fo__ScopeCodeGenEngine__.dllManaged.obj -clrver4.08.4150.0 -D__CLR_VER=40804150'
+time(c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\VC\bin\c1xx.dll)=2.40117s < 43150261552 - 43174273288 > BB [C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__ScopeCodeGenEngine__.dll.cpp]
+`c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\VC\bin\c2.dll -il C:\Users\ANSSHA~1\AppData\Local\Temp\_CL_10fed0a9 -typedil -f __ScopeCodeGenEngine__.dll.cpp -dos -Fdvc140.pdb -GS -bigobj -MD -W 4 -WX -Zi -Og -Ob2 -Gy -Bd -cgsummary -EHa -EHa -Gil -Fo__ScopeCodeGenEngine__.dllManaged.obj'
+Code Generation Summary
+	Total Function Count: 1669
+	Elapsed Time: 0.702 sec
+	Total Compilation Time: 0.694 sec
+	Average time per function: 0.000 sec
+	Anomalistic Compile Times: 58
+		?WriteRuntimeStats@Statistics@IncrementalAllocator@ScopeEngine@@$$FQEBAXAEAVTreeNode@3@J@Z: 0.018 sec, 0 instrs
+		?ReadInternal@?$SqlIpRowStream@VFixedLengthDelimiter@ScopeEngine@@@ScopeEngine@@$$FIE$AAMHP$01EAEHH_N@Z: 0.008 sec, 0 instrs
+		?ReadInternal@?$SqlIpRowStream@VNewLineDelimiter@ScopeEngine@@@ScopeEngine@@$$FIE$AAMHP$01EAEHH_N@Z: 0.007 sec, 0 instrs
+		??$emplace_back@PEBUBufferDescriptor@ScopeEngine@@@?$vector@PEBUBufferDescriptor@ScopeEngine@@V?$allocator@PEBUBufferDescriptor@ScopeEngine@@@std@@@std@@$$FQEAAX$$QEAPEBUBufferDescriptor@ScopeEngine@@@Z: 0.006 sec, 0 instrs
+		??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@$$FYA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@QEBDAEBV10@@Z: 0.006 sec, 0 instrs
+		?WriteRuntimeStats@CosmosOutput@ScopeEngine@@$$FQEBAXAEAVTreeNode@2@@Z: 0.006 sec, 0 instrs
+		??0?$SqlIpProcessor@VProcess_3_Data0@@VProcess_4_Data0@@@ScopeEngine@@$$FAEAM@PE$AAVIProcessor@Interfaces@Analytics@Microsoft@@PE$AAV?$SqlIpInputRowset@VProcess_3_Data0@@@1@PE$AAVSqlIpUpdatableRow@ScopeEngineManaged@@P6MXPE$AAVSqlIpRow@8@AEAVProcess_4_Data0@@PEAVIncrementalAllocator@1@@ZP6AX5@ZP6A_NAEAVProcess_3_Data0@@45@ZP$01EAPE$AAVString@System@@P$01EAPE$AAVString@System@@@Z: 0.005 sec, 0 instrs
+		??1?$SqlIpProcessor@VProcess_3_Data0@@VProcess_4_Data0@@@ScopeEngine@@$$FUEAA@XZ: 0.005 sec, 0 instrs
+		?GetNextRow@?$SqlIpProcessor@VProcess_3_Data0@@VProcess_4_Data0@@@ScopeEngine@@$$FUEAA_NAEAVProcess_4_Data0@@@Z: 0.005 sec, 0 instrs
+		?WriteRuntimeStats@IncrementalAllocator@ScopeEngine@@$$FUEBAXAEAVTreeNode@2@J@Z: 0.005 sec, 0 instrs
+		??_ERowAllocator@ScopeEngine@@$$FUEAAPEAXI@Z: 0.004 sec, 0 instrs
+		?WriteRuntimeStats@?$ScopeCosmosOutputStream@VCosmosOutput@ScopeEngine@@@ScopeEngine@@$$FQE$AAMXAEAVTreeNode@2@@Z: 0.004 sec, 0 instrs
+		??1IncrementalAllocator@ScopeEngine@@$$FUEAA@XZ: 0.004 sec, 0 instrs
+		?Seek@CosmosInput@ScopeEngine@@$$FQEAA_K_K@Z: 0.004 sec, 0 instrs
+		??$MakeSqlIp@VProcess_3_Data0@@VProcess_4_Data0@@$08@ScopeProcessorManagedFactory@ScopeEngine@@$$FSAPEAV?$ScopeProcessorManaged@VProcess_3_Data0@@VProcess_4_Data0@@@1@PEAV?$OperatorDelegate@VProcess_3_Data0@@@1@@Z: 0.004 sec, 0 instrs
+		?WriteRuntimeStats@?$SqlIpOutputter@VCosmosOutput@ScopeEngine@@VProcess_4_Data0@@@ScopeEngine@@$$FUEBAXAEAVTreeNode@2@@Z: 0.004 sec, 0 instrs
+		?Seek@?$ScopeCosmosInputStream@VCosmosInput@ScopeEngine@@@ScopeEngine@@$$FUE$AAM_J_JW4SeekOrigin@IO@System@@@Z: 0.004 sec, 0 instrs
+		??$Init@AEBQEBD@IncrementalAllocator@ScopeEngine@@$$FQEAAX_KAEBQEBD@Z: 0.004 sec, 0 instrs
+		??0?$ManagedUDO@$0L@@ScopeEngine@@$$FQEAA@PEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z: 0.004 sec, 0 instrs
+		??0?$ManagedUDO@$08@ScopeEngine@@$$FQEAA@PEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z: 0.004 sec, 0 instrs
+		?WriteRuntimeStats@?$SqlIpProcessor@VProcess_3_Data0@@VProcess_4_Data0@@@ScopeEngine@@$$FUEBAXAEAVTreeNode@2@@Z: 0.004 sec, 0 instrs
+		??0exception@std@@$$FQEAA@AEBV01@@Z: 0.004 sec, 0 instrs
+		??$_Integral_to_string@D_J@std@@$$FYA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@_J@Z: 0.004 sec, 0 instrs
+		??$CopyToManagedList@VFString@ScopeEngine@@PE$AAVString@System@@@ScopeManagedInterop@ScopeEngine@@$$FSMPE$AAV?$List@PE$AAVString@System@@@Generic@Collections@System@@AEBV?$ScopeArrayNative@VFString@ScopeEngine@@@1@@Z: 0.003 sec, 0 instrs
+		??1RowAllocator@ScopeEngine@@$$FUEAA@XZ: 0.003 sec, 0 instrs
+		??_EIncrementalAllocator@ScopeEngine@@$$FUEAAPEAXI@Z: 0.003 sec, 0 instrs
+		?Init@CosmosInput@ScopeEngine@@$$FQEAAX_N0@Z: 0.003 sec, 0 instrs
+		?Write@CosmosOutput@ScopeEngine@@$$FQEAAXPEBDI@Z: 0.003 sec, 0 instrs
+		??$?0AEBQEBD@IncrementalAllocator@ScopeEngine@@$$FQEAA@_KAEBQEBD@Z: 0.003 sec, 0 instrs
+		??0DryadChannel@ScopeEngine@@$$FQEAA@AEBU01@@Z: 0.003 sec, 0 instrs
+		??$Reset@UReclaimAllMemoryPolicy@IncrementalAllocator@ScopeEngine@@@IncrementalAllocator@ScopeEngine@@$$FQEAAXXZ: 0.003 sec, 0 instrs
+		??$_Integral_to_string@D_K@std@@$$FYA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@_K@Z: 0.003 sec, 0 instrs
+		?_Construct_lv_contents@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@$$FQEAAXAEBV12@@Z: 0.003 sec, 0 instrs
+		?FlushPage@CosmosOutput@ScopeEngine@@$$FAEAAX_N0@Z: 0.003 sec, 0 instrs
+		??_E?$SqlIpProcessor@VProcess_3_Data0@@VProcess_4_Data0@@@ScopeEngine@@$$FUEAAPEAXI@Z: 0.003 sec, 0 instrs
+		??0?$vector@UParameterValue@ScopeEngine@@V?$allocator@UParameterValue@ScopeEngine@@@std@@@std@@$$FQEAA@AEBV01@@Z: 0.003 sec, 0 instrs
+		?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAAAEAV12@QEBD_K@Z: 0.003 sec, 0 instrs
+		??1?$SqlIpOutputter@VCosmosOutput@ScopeEngine@@VProcess_4_Data0@@@ScopeEngine@@$$FUEAA@XZ: 0.003 sec, 0 instrs
+		?Output@?$SqlIpOutputter@VCosmosOutput@ScopeEngine@@VProcess_4_Data0@@@ScopeEngine@@$$FUEAAXXZ: 0.003 sec, 0 instrs
+		?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAAAEAV12@QEBD_K@Z: 0.003 sec, 0 instrs
+		??$Reset@UAmortizeMemoryAllocationPolicy@IncrementalAllocator@ScopeEngine@@@IncrementalAllocator@ScopeEngine@@$$FQEAAXXZ: 0.003 sec, 0 instrs
+		?Read@?$SqlIpRowStream@VFixedLengthDelimiter@ScopeEngine@@@ScopeEngine@@$$FQE$AAMHP$01EAEHH@Z: 0.003 sec, 0 instrs
+		??$_Reallocate_grow_by@V<lambda_f1129f3d98befd92b6d0e63ffb90e238>@@PEBD_K@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAAAEAV01@_KV<lambda_f1129f3d98befd92b6d0e63ffb90e238>@@PEBD_K@Z: 0.003 sec, 0 instrs
+		?Close@CosmosOutput@ScopeEngine@@$$FQEAAXXZ: 0.003 sec, 0 instrs
+		?ResetOutput@?$SqlIpProcessor@VProcess_3_Data0@@VProcess_4_Data0@@@ScopeEngine@@$$FAEAAXXZ: 0.002 sec, 0 instrs
+		??0ScopeErrorArg@ScopeCommon@@$$FQEAA@_J@Z: 0.002 sec, 0 instrs
+		?_Construct_lv_contents@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAAXAEBV12@@Z: 0.002 sec, 0 instrs
+		??$?0AEBQEBD@RowAllocator@ScopeEngine@@$$FQEAA@_KAEBQEBD@Z: 0.002 sec, 0 instrs
+		?Close@CosmosInput@ScopeEngine@@$$FQEAAXXZ: 0.002 sec, 0 instrs
+		??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAA@QEBD@Z: 0.002 sec, 0 instrs
+		??$_Reallocate_for@V<lambda_61f19ca81ede490286327871d07716e6>@@PEBD@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAAAEAV01@_KV<lambda_61f19ca81ede490286327871d07716e6>@@PEBD@Z: 0.002 sec, 0 instrs
+		??$MakeSqlIp@VCosmosOutput@ScopeEngine@@VProcess_4_Data0@@$0L@$0A@@ScopeOutputterManagedFactory@ScopeEngine@@$$FSAPEAV?$ScopeOutputterManaged@VCosmosOutput@ScopeEngine@@VProcess_4_Data0@@@1@PEAV?$OperatorDelegate@VProcess_4_Data0@@@1@_N1@Z: 0.002 sec, 0 instrs
+		?_Change_array@?$vector@PEBUBufferDescriptor@ScopeEngine@@V?$allocator@PEBUBufferDescriptor@ScopeEngine@@@std@@@std@@$$FAEAAXQEAPEBUBufferDescriptor@ScopeEngine@@_K1@Z: 0.002 sec, 0 instrs
+		?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAAAEAV12@QEBD@Z: 0.002 sec, 0 instrs
+		?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAAAEAV12@AEBV12@@Z: 0.002 sec, 0 instrs
+		??$CopyToManagedColumn@VFString@ScopeEngine@@PE$AAVString@System@@@ScopeManagedInterop@ScopeEngine@@$$FSMXAEBV?$ScopeArrayNative@VFString@ScopeEngine@@@1@AE$CAPE$AAV?$SqlArray@PE$AAVString@System@@@Sql@Types@Analytics@Microsoft@@@Z: 0.002 sec, 0 instrs
+		?_Tidy@?$vector@PEBUBufferDescriptor@ScopeEngine@@V?$allocator@PEBUBufferDescriptor@ScopeEngine@@@std@@@std@@$$FAEAAXXZ: 0.002 sec, 0 instrs
+		?ComplexColumnGetter@?$ManagedRow@VProcess_3_Data0@@@ScopeEngine@@$$FSMPE$AAVObject@System@@HPEAE@Z: 0.002 sec, 0 instrs
+RdrReadProc Caching Stats
+	Functions Cached: 0
+	Retrieved Count: 0
+	Abandoned Retrieval Count: 0
+	Abandoned Caching Count: 0
+	Wasted Caching Attempts: 0
+	Functions Retrieved at Least Once: 0
+	Functions Cached and Never Retrieved: 0
+	Most Hits:
+	Least Hits:
+time(c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\VC\bin\c2.dll)=0.88406s < 43174290324 - 43183130917 > BB [C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__ScopeCodeGenEngine__.dll.cpp]
+
+#CPP stderr:
+
+#CPP cl.exe pre-compile (iteration 0/0) -- Native
+#CPP stdout:
+__ScopeCodeGenEngine__.dll.cpp
+ENC_CWD=C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script
+ENC_CL=c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\VC\bin\cl.exe
+ENC_SRC=__ScopeCodeGenEngine__.dll.cpp
+ENC_PDB=C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__ScopeCodeGenEngine__.dllNative_pch.pdb
+ENC_CMD=-nologo -c -bigobj -Bt+ -DWIN32_LEAN_AND_MEAN -MD -W4 -WX -Zi -O2 -Bd -cgsummary -EHa -DCOMPILE_NATIVE -wd4125 -wd4627 -wd4800 -wd4702 -DUSE_SSE4_2 -I"c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\VC\include" -I"c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\SDK\include" -I"c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\SDK\include\um" -I"c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\SDK\include\shared" -I"c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\SDK\include\ucrt" -I"c:\program files (x86)\microsoft visual studio\2019\professional\common7\ide\extensions\microsoft\adl tools\2.4.5000.0\U-SQLSDK" -IC:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script -Yc -FpC:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__ScopeCodeGenEngine__.dllNative_pch.pch -TP -X
+`c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\VC\bin\c1xx.dll -zm0x00007FF68E18CA20 -il C:\Users\ANSSHA~1\AppData\Local\Temp\_CL_775e2d96 -typedil -f __ScopeCodeGenEngine__.dll.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -ZB64 -D_INTEGRAL_MAX_BITS=64 -pc \:/ -D_MSC_VER=1912 -D_MSC_FULL_VER=191225835 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GS -GR -D_CPPRTTI -Zc:forScope -Zc:wchar_t -nologo -DWIN32_LEAN_AND_MEAN -D_MT -D_DLL -W 4 -WX -Zi -GF -Og -Oi -Ot -Oy -Bd -EHa -D_CPPUNWIND -DCOMPILE_NATIVE -wd 4125 -wd 4627 -wd 4800 -wd 4702 -DUSE_SSE4_2 -I c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\VC\include -I c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\SDK\include -I c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\SDK\include\um -I c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\SDK\include\shared -I c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\SDK\include\ucrt -I c:\program files (x86)\microsoft visual studio\2019\professional\common7\ide\extensions\microsoft\adl tools\2.4.5000.0\U-SQLSDK -I C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script -Yc -Fo__ScopeCodeGenEngine__.dllNative_pch.obj -Fp__ScopeCodeGenEngine__.dllNative_pch.pch -Fd__ScopeCodeGenEngine__.dllNative_pch.pdb'
+time(c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\VC\bin\c1xx.dll)=2.26378s < 43207575989 - 43230213794 > BB [C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__ScopeCodeGenEngine__.dll.cpp]
+`c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\VC\bin\c2.dll -il C:\Users\ANSSHA~1\AppData\Local\Temp\_CL_775e2d96 -typedil -f __ScopeCodeGenEngine__.dll.cpp -dos -GS -bigobj -MD -W 4 -WX -Zi -Og -Ob2 -Gy -Bd -cgsummary -EHa -Yc -Fo__ScopeCodeGenEngine__.dllNative_pch.obj -Fd__ScopeCodeGenEngine__.dllNative_pch.pdb'
+Code Generation Summary
+	Total Function Count: 138
+	Elapsed Time: 0.045 sec
+	Total Compilation Time: 0.159 sec
+	Average time per function: 0.001 sec
+	Anomalistic Compile Times: 7
+		?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD_K@Z: 0.010 sec, 0 instrs
+		??$_Reallocate_grow_by@V<lambda_1dfe18491bcca09701d8ccb01d0b0af4>@@PEB_W_K@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAAEAV01@_KV<lambda_1dfe18491bcca09701d8ccb01d0b0af4>@@PEB_W_K@Z: 0.008 sec, 0 instrs
+		?assign@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAAEAV12@QEB_W_K@Z: 0.008 sec, 0 instrs
+		??$_Reallocate_grow_by@V<lambda_65e615be2a453ca0576c979606f46740>@@PEBD_K@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV01@_KV<lambda_65e615be2a453ca0576c979606f46740>@@PEBD_K@Z: 0.008 sec, 0 instrs
+		??$_Reallocate_for@V<lambda_66f57f934f28d61049862f64df852ff0>@@PEBD@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV01@_KV<lambda_66f57f934f28d61049862f64df852ff0>@@PEBD@Z: 0.007 sec, 0 instrs
+		??$_Reallocate_for@V<lambda_3fa8b2c8193a0f3144fc4b1b8f243931>@@PEB_W@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAAEAV01@_KV<lambda_3fa8b2c8193a0f3144fc4b1b8f243931>@@PEB_W@Z: 0.007 sec, 0 instrs
+		?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD_K@Z: 0.007 sec, 0 instrs
+RdrReadProc Caching Stats
+	Functions Cached: 0
+	Retrieved Count: 0
+	Abandoned Retrieval Count: 0
+	Abandoned Caching Count: 0
+	Wasted Caching Attempts: 0
+	Functions Retrieved at Least Once: 0
+	Functions Cached and Never Retrieved: 0
+	Most Hits:
+	Least Hits:
+time(c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\VC\bin\c2.dll)=0.09744s < 43230231621 - 43231206069 > BB [C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__ScopeCodeGenEngine__.dll.cpp]
+
+#CPP stderr:
+
+#CPP cl.exe compile (iteration 1/1) -- Native
+#CPP stdout:
+__ScopeCodeGenEngine__.dll.cpp
+ENC_CWD=C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script
+ENC_CL=c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\VC\bin\cl.exe
+ENC_SRC=__ScopeCodeGenEngine__.dll.cpp
+ENC_PDB=C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__ScopeCodeGenEngine__.dllNative_pch.pdb
+ENC_CMD=-nologo -c -bigobj -Bt+ -DWIN32_LEAN_AND_MEAN -MD -W4 -WX -Zi -O2 -Bd -cgsummary -EHa -DCOMPILE_NATIVE -wd4125 -wd4627 -wd4800 -wd4702 -DUSE_SSE4_2 -I"c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\VC\include" -I"c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\SDK\include" -I"c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\SDK\include\um" -I"c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\SDK\include\shared" -I"c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\SDK\include\ucrt" -I"c:\program files (x86)\microsoft visual studio\2019\professional\common7\ide\extensions\microsoft\adl tools\2.4.5000.0\U-SQLSDK" -IC:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script -DCOMPILE_ALL_VERTICES -DCOMPILE_INIT_SHUTDOWN -Yu -FpC:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__ScopeCodeGenEngine__.dllNative_pch.pch -TP -X
+`c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\VC\bin\c1xx.dll -zm0x00007FF68E18CA20 -allChunksReserved -il C:\Users\ANSSHA~1\AppData\Local\Temp\_CL_df5f5e08 -typedil -f __ScopeCodeGenEngine__.dll.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -ZB64 -D_INTEGRAL_MAX_BITS=64 -pc \:/ -D_MSC_VER=1912 -D_MSC_FULL_VER=191225835 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GS -GR -D_CPPRTTI -Zc:forScope -Zc:wchar_t -nologo -DWIN32_LEAN_AND_MEAN -D_MT -D_DLL -W 4 -WX -Zi -GF -Og -Oi -Ot -Oy -Bd -EHa -D_CPPUNWIND -DCOMPILE_NATIVE -wd 4125 -wd 4627 -wd 4800 -wd 4702 -DUSE_SSE4_2 -I c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\VC\include -I c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\SDK\include -I c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\SDK\include\um -I c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\SDK\include\shared -I c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\SDK\include\ucrt -I c:\program files (x86)\microsoft visual studio\2019\professional\common7\ide\extensions\microsoft\adl tools\2.4.5000.0\U-SQLSDK -I C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script -DCOMPILE_ALL_VERTICES -DCOMPILE_INIT_SHUTDOWN -Fo__ScopeCodeGenEngine__.dllNative.obj -Yu -Fp__ScopeCodeGenEngine__.dllNative_pch.pch -Fd__ScopeCodeGenEngine__.dllNative_pch.pdb'
+time(c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\VC\bin\c1xx.dll)=0.49178s < 43256041684 - 43260959472 > BB [C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__ScopeCodeGenEngine__.dll.cpp]
+`c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\VC\bin\c2.dll -il C:\Users\ANSSHA~1\AppData\Local\Temp\_CL_df5f5e08 -typedil -f __ScopeCodeGenEngine__.dll.cpp -dos -GS -bigobj -MD -W 4 -WX -Zi -Og -Ob2 -Gy -Bd -cgsummary -EHa -Fo__ScopeCodeGenEngine__.dllNative.obj -Fd__ScopeCodeGenEngine__.dllNative_pch.pdb'
+Code Generation Summary
+	Total Function Count: 2325
+	Elapsed Time: 1.619 sec
+	Total Compilation Time: 5.847 sec
+	Average time per function: 0.003 sec
+	Anomalistic Compile Times: 48
+		?MergeUntilFitsMemory@?$Sorter@VExtract_0_Data0@@$0?0@ScopeEngine@@QEAA_KAEAV?$vector@V?$shared_ptr@V?$SortingBucket@VExtract_0_Data0@@@ScopeEngine@@@std@@V?$allocator@V?$shared_ptr@V?$SortingBucket@VExtract_0_Data0@@@ScopeEngine@@@std@@@2@@std@@_J@Z: 0.176 sec, 0 instrs
+		?WriteRuntimeStatsImpl@?$Sorter@VExtract_0_Data0@@$0?0@ScopeEngine@@QEBAXAEAVTreeNode@2@@Z: 0.156 sec, 0 instrs
+		?LoadingData@?$ParallelLoader@V?$Extractor@VExtract_0_Data0@@V?$TextExtractPolicy@VExtract_0_Data0@@$00@ScopeEngine@@V?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$0A@$0A@$00$0A@$0A@$0A@@ScopeEngine@@VCosmosInput@2@@3@VExecutionStats@3@@ScopeEngine@@VExtract_0_Data0@@@ScopeEngine@@AEAA_NXZ: 0.114 sec, 0 instrs
+		SV1_Extract_execute: 0.103 sec, 0 instrs
+		?MergeAndDump@?$Sorter@VExtract_0_Data0@@$0?0@ScopeEngine@@AEAA?AV?$shared_ptr@V?$SortingBucket@VExtract_0_Data0@@@ScopeEngine@@@std@@AEAV?$vector@V?$shared_ptr@V?$SortingBucket@VExtract_0_Data0@@@ScopeEngine@@@std@@V?$allocator@V?$shared_ptr@V?$SortingBucket@VExtract_0_Data0@@@ScopeEngine@@@std@@@2@@4@@Z: 0.090 sec, 0 instrs
+		?WriteRuntimeStats@Statistics@IncrementalAllocator@ScopeEngine@@QEBAXAEAVTreeNode@3@J@Z: 0.083 sec, 0 instrs
+		?ReadAndSort@?$Sorter@VExtract_0_Data0@@$0?0@ScopeEngine@@AEAA_JXZ: 0.058 sec, 0 instrs
+		?WriteRuntimeStatsImpl@?$ParallelUnionAll@V?$Extractor@VExtract_0_Data0@@V?$TextExtractPolicy@VExtract_0_Data0@@$00@ScopeEngine@@V?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$0A@$0A@$00$0A@$0A@$0A@@ScopeEngine@@VCosmosInput@2@@3@VExecutionStats@3@@ScopeEngine@@VExtract_0_Data0@@$0A@@ScopeEngine@@QEBAXAEAVTreeNode@2@@Z: 0.054 sec, 0 instrs
+		??0?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$0A@$0A@$00$0A@$0A@$0A@@ScopeEngine@@VCosmosInput@2@@ScopeEngine@@QEAA@AEBUInputFileInfo@1@PEAVIncrementalAllocator@1@_KHAEBUInputStreamParameters@1@@Z: 0.049 sec, 0 instrs
+		?FreeMemory@?$Sorter@VExtract_0_Data0@@$0?0@ScopeEngine@@AEAA_J_J@Z: 0.047 sec, 0 instrs
+		?GetNextRowImpl@?$ParallelUnionAll@V?$Extractor@VExtract_0_Data0@@V?$TextExtractPolicy@VExtract_0_Data0@@$00@ScopeEngine@@V?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$0A@$0A@$00$0A@$0A@$0A@@ScopeEngine@@VCosmosInput@2@@3@VExecutionStats@3@@ScopeEngine@@VExtract_0_Data0@@$0A@@ScopeEngine@@QEAA_NAEAVExtract_0_Data0@@@Z: 0.046 sec, 0 instrs
+		?SpillingPhase@?$SortingBucket@VExtract_0_Data0@@@ScopeEngine@@QEAAXXZ: 0.046 sec, 0 instrs
+		?_Extract@?$_Tree@V?$_Tmap_traits@HVFString@ScopeEngine@@U?$less@H@std@@V?$STLIncrementalAllocator@U?$pair@$$CBHVFString@ScopeEngine@@@std@@@2@$0A@@std@@@std@@QEAAPEAU?$_Tree_node@U?$pair@$$CBHVFString@ScopeEngine@@@std@@PEAX@2@V?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHVFString@ScopeEngine@@@std@@@std@@@std@@@2@@Z: 0.039 sec, 0 instrs
+		?WriteRuntimeStats@?$ParallelLoader@V?$Extractor@VExtract_0_Data0@@V?$TextExtractPolicy@VExtract_0_Data0@@$00@ScopeEngine@@V?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$0A@$0A@$00$0A@$0A@$0A@@ScopeEngine@@VCosmosInput@2@@3@VExecutionStats@3@@ScopeEngine@@VExtract_0_Data0@@@ScopeEngine@@QEBAXAEAVTreeNode@2@@Z: 0.038 sec, 0 instrs
+		??$_Partition_by_median_guess_unchecked@PEAVExtract_0_Data0@@P6A_NAEAV1@0@Z@std@@YA?AU?$pair@PEAVExtract_0_Data0@@PEAV1@@0@PEAVExtract_0_Data0@@0P6A_NAEAV2@1@Z@Z: 0.037 sec, 0 instrs
+		??$CreateBadConvertException@VAutoExpandBuffer@ScopeEngine@@@?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$0A@$0A@$00$0A@$0A@$0A@@ScopeEngine@@VCosmosInput@2@@ScopeEngine@@AEAA?AVTextConversionException@1@W4ConvertResult@1@AEBVAutoExpandBuffer@1@@Z: 0.036 sec, 0 instrs
+		?ssort2@?$MKQSortInternal@VExtract_0_Data0@@@ScopeEngine@@QEAAXPEAVExtract_0_Data0@@_JH@Z: 0.034 sec, 0 instrs
+		?CloseImpl@?$Sorter@VExtract_0_Data0@@$0?0@ScopeEngine@@QEAAXXZ: 0.034 sec, 0 instrs
+		??$_Sort_unchecked@PEAVExtract_0_Data0@@_JP6A_NAEAV1@0@Z@std@@YAXPEAVExtract_0_Data0@@0_JP6A_NAEAV1@2@Z@Z: 0.031 sec, 0 instrs
+		??$_Stable_partition_unchecked1@PEAUInputFileInfo@ScopeEngine@@V<lambda_0020045c74600b36280150bc14746db2>@@_JU12@@std@@YA?AU?$pair@PEAUInputFileInfo@ScopeEngine@@_J@0@PEAUInputFileInfo@ScopeEngine@@0V<lambda_0020045c74600b36280150bc14746db2>@@_JAEAU?$_Temporary_buffer@UInputFileInfo@ScopeEngine@@@0@@Z: 0.030 sec, 0 instrs
+		??0?$ParallelUnionAll@V?$Extractor@VExtract_0_Data0@@V?$TextExtractPolicy@VExtract_0_Data0@@$00@ScopeEngine@@V?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$0A@$0A@$00$0A@$0A@$0A@@ScopeEngine@@VCosmosInput@2@@3@VExecutionStats@3@@ScopeEngine@@VExtract_0_Data0@@$0A@@ScopeEngine@@QEAA@PEAPEAV?$Extractor@VExtract_0_Data0@@V?$TextExtractPolicy@VExtract_0_Data0@@$00@ScopeEngine@@V?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$0A@$0A@$00$0A@$0A@$0A@@ScopeEngine@@VCosmosInput@2@@3@VExecutionStats@3@@1@K_K1H@Z: 0.029 sec, 0 instrs
+		?ReadString@?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$0A@$0A@$00$0A@$0A@$0A@@ScopeEngine@@VCosmosInput@2@@ScopeEngine@@AEAA?AW4TokenizerState@12@PEAVAutoExpandBuffer@2@@Z: 0.029 sec, 0 instrs
+		??$_Insert_hint@AEAU?$pair@$$CBHVFString@ScopeEngine@@@std@@PEAU?$_Tree_node@U?$pair@$$CBHVFString@ScopeEngine@@@std@@PEAX@2@@?$_Tree@V?$_Tmap_traits@HVFString@ScopeEngine@@U?$less@H@std@@V?$STLIncrementalAllocator@U?$pair@$$CBHVFString@ScopeEngine@@@std@@@2@$0A@@std@@@std@@IEAA?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHVFString@ScopeEngine@@@std@@@std@@@std@@@1@V?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHVFString@ScopeEngine@@@std@@@std@@@std@@@1@AEAU?$pair@$$CBHVFString@ScopeEngine@@@1@PEAU?$_Tree_node@U?$pair@$$CBHVFString@ScopeEngine@@@std@@PEAX@1@@Z: 0.028 sec, 0 instrs
+		?WriteRuntimeStatsImpl@?$ScopeOutputter@VCosmosOutput@ScopeEngine@@VProcess_4_Data0@@VExecutionStats@2@@ScopeEngine@@QEBAXAEAVTreeNode@2@@Z: 0.028 sec, 0 instrs
+		?Serialize@?$BinaryOutputPolicy@VExtract_0_Data0@@@ScopeEngine@@SAXPEAVBinaryOutputStream@2@AEAVExtract_0_Data0@@@Z: 0.027 sec, 0 instrs
+		?InitSpilled@?$SortingBucket@VExtract_0_Data0@@@ScopeEngine@@AEAAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z: 0.026 sec, 0 instrs
+		?WriteRuntimeStats@CosmosInput@ScopeEngine@@QEBAXAEAVTreeNode@2@@Z: 0.025 sec, 0 instrs
+		??$_Insert_at@AEAU?$pair@$$CBHVFString@ScopeEngine@@@std@@PEAU?$_Tree_node@U?$pair@$$CBHVFString@ScopeEngine@@@std@@PEAX@2@@?$_Tree@V?$_Tmap_traits@HVFString@ScopeEngine@@U?$less@H@std@@V?$STLIncrementalAllocator@U?$pair@$$CBHVFString@ScopeEngine@@@std@@@2@$0A@@std@@@std@@IEAA?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHVFString@ScopeEngine@@@std@@@std@@@std@@@1@_NPEAU?$_Tree_node@U?$pair@$$CBHVFString@ScopeEngine@@@std@@PEAX@1@AEAU?$pair@$$CBHVFString@ScopeEngine@@@1@1@Z: 0.024 sec, 0 instrs
+		?WriteRuntimeStatsImpl@?$FilterTransformer@V?$Sorter@VExtract_0_Data0@@$0?0@ScopeEngine@@VExtract_0_Data0@@VProcess_2_Data0@@$04@ScopeEngine@@QEBAXAEAVTreeNode@2@@Z: 0.024 sec, 0 instrs
+		??$ConvertToUtf8@V?$TextEncodingConverter@$00@ScopeEngine@@@?$TextEncodingReader@VCosmosInput@ScopeEngine@@$00$0A@@ScopeEngine@@AEAAXPEAV?$TextEncodingConverter@$00@1@AEA_KAEA_N@Z: 0.023 sec, 0 instrs
+		?AppendRuntimeStats@?$Extractor@VExtract_0_Data0@@V?$TextExtractPolicy@VExtract_0_Data0@@$00@ScopeEngine@@V?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$0A@$0A@$00$0A@$0A@$0A@@ScopeEngine@@VCosmosInput@2@@3@VExecutionStats@3@@ScopeEngine@@QEBAXAEAVTreeNode@2@@Z: 0.023 sec, 0 instrs
+		?WriteRuntimeStatsImpl@?$StreamAggregator@V?$FilterTransformer@V?$Sorter@VExtract_0_Data0@@$0?0@ScopeEngine@@VExtract_0_Data0@@VProcess_2_Data0@@$04@ScopeEngine@@VProcess_2_Data0@@VProcess_3_Data0@@$06@ScopeEngine@@QEBAXAEAVTreeNode@2@@Z: 0.023 sec, 0 instrs
+		??$ConvertToUtf8@V?$TextEncodingConverter@$05@ScopeEngine@@@?$TextEncodingReader@VCosmosInput@ScopeEngine@@$00$0A@@ScopeEngine@@AEAAXPEAV?$TextEncodingConverter@$05@1@AEA_KAEA_N@Z: 0.022 sec, 0 instrs
+		??$ConvertToUtf8@V?$TextEncodingConverter@$04@ScopeEngine@@@?$TextEncodingReader@VCosmosInput@ScopeEngine@@$00$0A@@ScopeEngine@@AEAAXPEAV?$TextEncodingConverter@$04@1@AEA_KAEA_N@Z: 0.021 sec, 0 instrs
+		??$ConvertToUtf8@V?$Utf8TextEncodingConverter@$0A@@ScopeEngine@@@?$TextEncodingReader@VCosmosInput@ScopeEngine@@$00$0A@@ScopeEngine@@AEAAXPEAV?$Utf8TextEncodingConverter@$0A@@1@AEA_KAEA_N@Z: 0.021 sec, 0 instrs
+		?GetNextRow@?$ScopeLoserTree@V?$SortingBucket@VExtract_0_Data0@@@ScopeEngine@@VExtract_0_Data0@@$02@ScopeEngine@@QEAA_NAEAVExtract_0_Data0@@@Z: 0.021 sec, 0 instrs
+		??$ConvertToUtf8@V?$TextEncodingConverter@$07@ScopeEngine@@@?$TextEncodingReader@VCosmosInput@ScopeEngine@@$00$0A@@ScopeEngine@@AEAAXPEAV?$TextEncodingConverter@$07@1@AEA_KAEA_N@Z: 0.021 sec, 0 instrs
+		??$ConvertToUtf8@V?$TextEncodingConverter@$09@ScopeEngine@@@?$TextEncodingReader@VCosmosInput@ScopeEngine@@$00$0A@@ScopeEngine@@AEAAXPEAV?$TextEncodingConverter@$09@1@AEA_KAEA_N@Z: 0.021 sec, 0 instrs
+		?_Growmap@?$deque@V?$shared_ptr@V?$SortingBucket@VExtract_0_Data0@@@ScopeEngine@@@std@@V?$allocator@V?$shared_ptr@V?$SortingBucket@VExtract_0_Data0@@@ScopeEngine@@@std@@@2@@std@@IEAAX_K@Z: 0.019 sec, 0 instrs
+		??$ConvertToUtf8@V?$TextEncodingConverter@$0O@@ScopeEngine@@@?$TextEncodingReader@VCosmosInput@ScopeEngine@@$00$0A@@ScopeEngine@@AEAAXPEAV?$TextEncodingConverter@$0O@@1@AEA_KAEA_N@Z: 0.019 sec, 0 instrs
+		?_Growmap@?$deque@V?$unique_ptr@V?$AutoRowArray@VExtract_0_Data0@@@ScopeEngine@@U?$default_delete@V?$AutoRowArray@VExtract_0_Data0@@@ScopeEngine@@@std@@@std@@V?$allocator@V?$unique_ptr@V?$AutoRowArray@VExtract_0_Data0@@@ScopeEngine@@U?$default_delete@V?$AutoRowArray@VExtract_0_Data0@@@ScopeEngine@@@std@@@std@@@2@@std@@IEAAX_K@Z: 0.019 sec, 0 instrs
+		??0?$Sorter@VExtract_0_Data0@@$0?0@ScopeEngine@@QEAA@PEAV?$OperatorDelegate@VExtract_0_Data0@@@1@P6AXPEAVExtract_0_Data0@@_K@ZPEAV?$ScopeLoserTreeDelegate@VExtract_0_Data0@@@1@_N_JH@Z: 0.019 sec, 0 instrs
+		??$ConvertToUtf8@V?$TextEncodingConverter@$08@ScopeEngine@@@?$TextEncodingReader@VCosmosInput@ScopeEngine@@$00$0A@@ScopeEngine@@AEAAXPEAV?$TextEncodingConverter@$08@1@AEA_KAEA_N@Z: 0.019 sec, 0 instrs
+		??$ConvertToUtf8@V?$TextEncodingConverter@$0BB@@ScopeEngine@@@?$TextEncodingReader@VCosmosInput@ScopeEngine@@$00$0A@@ScopeEngine@@AEAAXPEAV?$TextEncodingConverter@$0BB@@1@AEA_KAEA_N@Z: 0.019 sec, 0 instrs
+		??0?$FixedArrayType@D@ScopeEngine@@QEAA@AEBV01@PEAVIncrementalAllocator@1@@Z: 0.019 sec, 0 instrs
+		??$ConvertToUtf8@V?$TextEncodingConverter@$0P@@ScopeEngine@@@?$TextEncodingReader@VCosmosInput@ScopeEngine@@$00$0A@@ScopeEngine@@AEAAXPEAV?$TextEncodingConverter@$0P@@1@AEA_KAEA_N@Z: 0.018 sec, 0 instrs
+		?str@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ: 0.018 sec, 0 instrs
+		??$ConvertToUtf8@V?$TextEncodingConverter@$02@ScopeEngine@@@?$TextEncodingReader@VCosmosInput@ScopeEngine@@$00$0A@@ScopeEngine@@AEAAXPEAV?$TextEncodingConverter@$02@1@AEA_KAEA_N@Z: 0.018 sec, 0 instrs
+RdrReadProc Caching Stats
+	Functions Cached: 33
+	Retrieved Count: 2654
+	Abandoned Retrieval Count: 0
+	Abandoned Caching Count: 0
+	Wasted Caching Attempts: 0
+	Functions Retrieved at Least Once: 33
+	Functions Cached and Never Retrieved: 0
+	Most Hits:
+		?_Get_second@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QEAAAEAV?$_String_val@U?$_Simple_types@D@std@@@2@XZ: 442
+		?_Get_data@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QEAAAEAV?$_String_val@U?$_Simple_types@D@std@@@2@XZ: 442
+		?assign@?$char_traits@D@std@@SAXAEADAEBD@Z: 231
+		?_Get_second@?$_Compressed_pair@V?$allocator@V?$unique_ptr@V?$AutoRowArray@VExtract_0_Data0@@@ScopeEngine@@U?$default_delete@V?$AutoRowArray@VExtract_0_Data0@@@ScopeEngine@@@std@@@std@@@std@@V?$_Deque_val@U?$_Deque_simple_types@V?$unique_ptr@V?$AutoRowArray@VExtract_0_Data0@@@ScopeEngine@@U?$default_delete@V?$AutoRowArray@VExtract_0_Data0@@@ScopeEngine@@@std@@@std@@@std@@@2@$00@std@@QEAAAEAV?$_Deque_val@U?$_Deque_simple_types@V?$unique_ptr@V?$AutoRowArray@VExtract_0_Data0@@@ScopeEngine@@U?$default_delete@V?$AutoRowArray@VExtract_0_Data0@@@ScopeEngine@@@std@@@std@@@std@@@2@XZ: 134
+		?_Get_data@?$_Deque_alloc@U?$_Deque_base_types@V?$unique_ptr@V?$AutoRowArray@VExtract_0_Data0@@@ScopeEngine@@U?$default_delete@V?$AutoRowArray@VExtract_0_Data0@@@ScopeEngine@@@std@@@std@@V?$allocator@V?$unique_ptr@V?$AutoRowArray@VExtract_0_Data0@@@ScopeEngine@@U?$default_delete@V?$AutoRowArray@VExtract_0_Data0@@@ScopeEngine@@@std@@@std@@@2@@std@@@std@@QEAAAEAV?$_Deque_val@U?$_Deque_simple_types@V?$unique_ptr@V?$AutoRowArray@VExtract_0_Data0@@@ScopeEngine@@U?$default_delete@V?$AutoRowArray@VExtract_0_Data0@@@ScopeEngine@@@std@@@std@@@std@@@2@XZ: 134
+		?_Get_first@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QEAAAEAV?$allocator@D@2@XZ: 102
+		?_Getal@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QEAAAEAV?$allocator@D@2@XZ: 102
+		?_Tidy_init@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXXZ: 89
+		?_Deallocate@std@@YAXPEAX_K1_K@Z: 72
+		??0?$_String_val@U?$_Simple_types@D@std@@@std@@QEAA@XZ: 71
+		??0?$allocator@D@std@@QEAA@XZ: 61
+	Least Hits:
+		??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@QEBD@Z: 5
+		?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD@Z: 6
+		?_Get_second@?$_Compressed_pair@U?$default_delete@V?$AutoRowArray@VExtract_0_Data0@@@ScopeEngine@@@std@@PEAV?$AutoRowArray@VExtract_0_Data0@@@ScopeEngine@@$00@std@@QEBAAEBQEAV?$AutoRowArray@VExtract_0_Data0@@@ScopeEngine@@XZ: 15
+		?_Myptr@?$_Unique_ptr_base@V?$AutoRowArray@VExtract_0_Data0@@@ScopeEngine@@U?$default_delete@V?$AutoRowArray@VExtract_0_Data0@@@ScopeEngine@@@std@@@std@@QEBAAEBQEAV?$AutoRowArray@VExtract_0_Data0@@@ScopeEngine@@XZ: 15
+		?length@?$char_traits@D@std@@SA_KQEBD@Z: 20
+		?_Tidy_deallocate@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXXZ: 23
+		?_Orphan_all@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QEAAXXZ: 24
+		??$destroy@PEAD@?$_Default_allocator_traits@V?$allocator@D@std@@@std@@SAXAEAV?$allocator@D@1@QEAPEAD@Z: 26
+		??$_Convert_size@_K@std@@YA_K_K@Z: 27
+		?deallocate@?$allocator@D@std@@QEAAXQEAD_K@Z: 34
+		??$addressof@PEAD@std@@YAPEAPEADAEAPEAD@Z: 35
+time(c:\program files (x86)\microsoft visual studio\2019\professional\SDK\ScopeCppSDK\vc15\VC\bin\c2.dll)=1.75233s < 43260975536 - 43278498791 > BB [C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__ScopeCodeGenEngine__.dll.cpp]
+
+#CPP stderr:
+
+*** Done with C++ compilation, time elapsed until this point: 00:00:21.8661756
+#LINK stdout:
+__ScopeCodeGenEngine__.dllNative_pch.obj : warning LNK4042: object specified more than once; extras ignored
+   Creating library __ScopeCodeGenEngine__.lib and object __ScopeCodeGenEngine__.exp
+Linker: LibDef Total time = 0.00403s PB: 47312896 [C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__ScopeCodeGenEngine__.dll] 
+Linker:   MD Merge Total time = 0.06141s PB: 48566272 [C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__ScopeCodeGenEngine__.dll] 
+Linker:   Generate Transitions Total time = 0.00489s PB: 48726016 [C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__ScopeCodeGenEngine__.dll] 
+Linker:   OptRef: Interval #1, time = 0.00201s [C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__ScopeCodeGenEngine__.dll] 
+Linker:   OptRef Total time = 0.06218s PB: 49496064 [C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__ScopeCodeGenEngine__.dll] 
+Linker:   OptIcf Total time = 0.01034s PB: 52867072 [C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__ScopeCodeGenEngine__.dll] 
+Linker:   MD Finalize Total time = 0.00782s PB: 52436992 [C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__ScopeCodeGenEngine__.dll] 
+Linker: Pass 1: Interval #1, time = 0.25077s [C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__ScopeCodeGenEngine__.dll] 
+Linker:   Wait PDB close Total time = 0.01961s PB: 18612224 [C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__ScopeCodeGenEngine__.dll] 
+Linker:   Wait type merge Total time = 0.01203s PB: 18550784 [C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__ScopeCodeGenEngine__.dll] 
+Linker: Pass 2: Interval #2, time = 0.09964s [C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__ScopeCodeGenEngine__.dll] 
+Linker: Final Total time = 0.35046s < 43301879086 - 43305383689 > PB: 18653184 [C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__ScopeCodeGenEngine__.dll] 
+
+#LINK stderr:
+
+*** Done with C++ linking, time elapsed until this point: 00:00:24.5553916
+*** Exiting compilation, time elapsed until this point: 00:00:24.5561167

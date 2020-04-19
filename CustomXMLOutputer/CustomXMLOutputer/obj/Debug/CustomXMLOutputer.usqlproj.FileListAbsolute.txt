@@ -1,0 +1,3 @@
+C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\CustomXMLOutputer.usqlpack
+C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\obj\Debug\CustomXMLOutputer.usqlproj.CoreCompileInputs.cache
+C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\obj\Debug\CustomXMLOutputer.usqlpack

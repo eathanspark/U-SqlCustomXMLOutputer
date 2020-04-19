@@ -1,0 +1,18 @@
+﻿@employeelog = 
+    EXTRACT sn int,
+            name string,
+            dept string,
+            rank int,
+            sal long
+    FROM "/employee.csv"
+    USING Extractors.Csv(skipFirstNRows : 1);
+
+@groupedData =
+    SELECT dept,
+           String.Join("|", ARRAY_AGG( name)) AS newtag
+    FROM @employeelog
+    GROUP BY dept;
+
+OUTPUT @groupedData 
+    TO "/employeelog_output.xml"
+    USING new CustomXMLOutputer.EmployeeXMLOutputter();

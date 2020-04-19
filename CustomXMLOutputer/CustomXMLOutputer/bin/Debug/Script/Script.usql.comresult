@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<CommonCompileResult xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ScriptPath>C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\Script.usql</ScriptPath>
+  <ScopeVertexDefinitionPath>C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\ScopeVertexDef.xml</ScopeVertexDefinitionPath>
+  <AlgebraPath>C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__script__.abr</AlgebraPath>
+  <ErrorList />
+  <WarningList />
+  <HelperCodePath>C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__ScopeCodeGenEngine__.dll.cpp</HelperCodePath>
+  <ResourceList>
+    <string>C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__codeBehind_r42dw11s.cet.dll</string>
+    <string>C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__codeBehind_r42dw11s.cet.pdb</string>
+  </ResourceList>
+  <ReferenceList>
+    <string>C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\__codeBehind_r42dw11s.cet.dll</string>
+  </ReferenceList>
+  <ClusterResourceList />
+  <InputStreams>
+    <string>C:\Users\anssharm7\AppData\Local\USQLDataRoot\employee.csv</string>
+  </InputStreams>
+  <OutputStreams>
+    <OutputStreamInfo>
+      <Path>C:\Users\anssharm7\AppData\Local\USQLDataRoot\employeelog_output.xml</Path>
+      <SchemaString />
+      <IsBinary>false</IsBinary>
+      <IsSStream>false</IsSStream>
+      <TableName />
+    </OutputStreamInfo>
+  </OutputStreams>
+  <LocalRunCachePath>C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script</LocalRunCachePath>
+  <LocalRunTempPath>C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script\_TMP</LocalRunTempPath>
+  <LocalRunRuntimePath>C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script</LocalRunRuntimePath>
+  <ScopeWorkingDir>C:\Eathan\RnD\BigData\CustomXMLOutputer\CustomXMLOutputer\bin\Debug\Script</ScopeWorkingDir>
+</CommonCompileResult>
